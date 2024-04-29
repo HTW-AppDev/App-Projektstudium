@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACBE268F2BE02D760040D30B /* KiezKompareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE268E2BE02D760040D30B /* KiezKompareApp.swift */; };
+		ACBE26912BE02D760040D30B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26902BE02D760040D30B /* ContentView.swift */; };
+		ACBE26932BE02D760040D30B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26922BE02D760040D30B /* Item.swift */; };
+		ACBE26952BE02D770040D30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBE26942BE02D770040D30B /* Assets.xcassets */; };
+		ACBE26982BE02D770040D30B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBE26972BE02D770040D30B /* Preview Assets.xcassets */; };
+		ACBE26A22BE02D770040D30B /* KiezKompareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26A12BE02D770040D30B /* KiezKompareTests.swift */; };
+		ACBE26AC2BE02D770040D30B /* KiezKompareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26AB2BE02D770040D30B /* KiezKompareUITests.swift */; };
+		ACBE26AE2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26AD2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ACBE269E2BE02D770040D30B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACBE26832BE02D760040D30B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACBE268A2BE02D760040D30B;
+			remoteInfo = KiezKompare;
+		};
+		ACBE26A82BE02D770040D30B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ACBE26832BE02D760040D30B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACBE268A2BE02D760040D30B;
+			remoteInfo = KiezKompare;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ACBE268B2BE02D760040D30B /* KiezKompare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiezKompare.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBE268E2BE02D760040D30B /* KiezKompareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiezKompareApp.swift; sourceTree = "<group>"; };
+		ACBE26902BE02D760040D30B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACBE26922BE02D760040D30B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		ACBE26942BE02D770040D30B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ACBE26972BE02D770040D30B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACBE269D2BE02D770040D30B /* KiezKompareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiezKompareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBE26A12BE02D770040D30B /* KiezKompareTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiezKompareTests.swift; sourceTree = "<group>"; };
+		ACBE26A72BE02D770040D30B /* KiezKompareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiezKompareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACBE26AB2BE02D770040D30B /* KiezKompareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiezKompareUITests.swift; sourceTree = "<group>"; };
+		ACBE26AD2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiezKompareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ACBE26882BE02D760040D30B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBE269A2BE02D770040D30B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBE26A42BE02D770040D30B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ACBE26822BE02D760040D30B = {
+			isa = PBXGroup;
+			children = (
+				ACBE268D2BE02D760040D30B /* KiezKompare */,
+				ACBE26A02BE02D770040D30B /* KiezKompareTests */,
+				ACBE26AA2BE02D770040D30B /* KiezKompareUITests */,
+				ACBE268C2BE02D760040D30B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ACBE268C2BE02D760040D30B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ACBE268B2BE02D760040D30B /* KiezKompare.app */,
+				ACBE269D2BE02D770040D30B /* KiezKompareTests.xctest */,
+				ACBE26A72BE02D770040D30B /* KiezKompareUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ACBE268D2BE02D760040D30B /* KiezKompare */ = {
+			isa = PBXGroup;
+			children = (
+				ACBE268E2BE02D760040D30B /* KiezKompareApp.swift */,
+				ACBE26902BE02D760040D30B /* ContentView.swift */,
+				ACBE26922BE02D760040D30B /* Item.swift */,
+				ACBE26942BE02D770040D30B /* Assets.xcassets */,
+				ACBE26962BE02D770040D30B /* Preview Content */,
+			);
+			path = KiezKompare;
+			sourceTree = "<group>";
+		};
+		ACBE26962BE02D770040D30B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				ACBE26972BE02D770040D30B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACBE26A02BE02D770040D30B /* KiezKompareTests */ = {
+			isa = PBXGroup;
+			children = (
+				ACBE26A12BE02D770040D30B /* KiezKompareTests.swift */,
+			);
+			path = KiezKompareTests;
+			sourceTree = "<group>";
+		};
+		ACBE26AA2BE02D770040D30B /* KiezKompareUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ACBE26AB2BE02D770040D30B /* KiezKompareUITests.swift */,
+				ACBE26AD2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift */,
+			);
+			path = KiezKompareUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ACBE268A2BE02D760040D30B /* KiezKompare */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACBE26B12BE02D770040D30B /* Build configuration list for PBXNativeTarget "KiezKompare" */;
+			buildPhases = (
+				ACBE26872BE02D760040D30B /* Sources */,
+				ACBE26882BE02D760040D30B /* Frameworks */,
+				ACBE26892BE02D760040D30B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KiezKompare;
+			productName = KiezKompare;
+			productReference = ACBE268B2BE02D760040D30B /* KiezKompare.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ACBE269C2BE02D770040D30B /* KiezKompareTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACBE26B42BE02D770040D30B /* Build configuration list for PBXNativeTarget "KiezKompareTests" */;
+			buildPhases = (
+				ACBE26992BE02D770040D30B /* Sources */,
+				ACBE269A2BE02D770040D30B /* Frameworks */,
+				ACBE269B2BE02D770040D30B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACBE269F2BE02D770040D30B /* PBXTargetDependency */,
+			);
+			name = KiezKompareTests;
+			productName = KiezKompareTests;
+			productReference = ACBE269D2BE02D770040D30B /* KiezKompareTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ACBE26A62BE02D770040D30B /* KiezKompareUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ACBE26B72BE02D770040D30B /* Build configuration list for PBXNativeTarget "KiezKompareUITests" */;
+			buildPhases = (
+				ACBE26A32BE02D770040D30B /* Sources */,
+				ACBE26A42BE02D770040D30B /* Frameworks */,
+				ACBE26A52BE02D770040D30B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ACBE26A92BE02D770040D30B /* PBXTargetDependency */,
+			);
+			name = KiezKompareUITests;
+			productName = KiezKompareUITests;
+			productReference = ACBE26A72BE02D770040D30B /* KiezKompareUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ACBE26832BE02D760040D30B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					ACBE268A2BE02D760040D30B = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					ACBE269C2BE02D770040D30B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = ACBE268A2BE02D760040D30B;
+					};
+					ACBE26A62BE02D770040D30B = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = ACBE268A2BE02D760040D30B;
+					};
+				};
+			};
+			buildConfigurationList = ACBE26862BE02D760040D30B /* Build configuration list for PBXProject "KiezKompare" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ACBE26822BE02D760040D30B;
+			productRefGroup = ACBE268C2BE02D760040D30B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACBE268A2BE02D760040D30B /* KiezKompare */,
+				ACBE269C2BE02D770040D30B /* KiezKompareTests */,
+				ACBE26A62BE02D770040D30B /* KiezKompareUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ACBE26892BE02D760040D30B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBE26982BE02D770040D30B /* Preview Assets.xcassets in Resources */,
+				ACBE26952BE02D770040D30B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBE269B2BE02D770040D30B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBE26A52BE02D770040D30B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ACBE26872BE02D760040D30B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBE26912BE02D760040D30B /* ContentView.swift in Sources */,
+				ACBE26932BE02D760040D30B /* Item.swift in Sources */,
+				ACBE268F2BE02D760040D30B /* KiezKompareApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBE26992BE02D770040D30B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBE26A22BE02D770040D30B /* KiezKompareTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACBE26A32BE02D770040D30B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACBE26AC2BE02D770040D30B /* KiezKompareUITests.swift in Sources */,
+				ACBE26AE2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ACBE269F2BE02D770040D30B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACBE268A2BE02D760040D30B /* KiezKompare */;
+			targetProxy = ACBE269E2BE02D770040D30B /* PBXContainerItemProxy */;
+		};
+		ACBE26A92BE02D770040D30B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ACBE268A2BE02D760040D30B /* KiezKompare */;
+			targetProxy = ACBE26A82BE02D770040D30B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		ACBE26AF2BE02D770040D30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ACBE26B02BE02D770040D30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ACBE26B22BE02D770040D30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KiezKompare/Preview Content\"";
+				DEVELOPMENT_TEAM = 862YYAKHRM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = htw.KiezKompare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ACBE26B32BE02D770040D30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KiezKompare/Preview Content\"";
+				DEVELOPMENT_TEAM = 862YYAKHRM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = htw.KiezKompare;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ACBE26B52BE02D770040D30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 862YYAKHRM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = htw.KiezKompareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiezKompare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KiezKompare";
+			};
+			name = Debug;
+		};
+		ACBE26B62BE02D770040D30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 862YYAKHRM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = htw.KiezKompareTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KiezKompare.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KiezKompare";
+			};
+			name = Release;
+		};
+		ACBE26B82BE02D770040D30B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 862YYAKHRM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = htw.KiezKompareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KiezKompare;
+			};
+			name = Debug;
+		};
+		ACBE26B92BE02D770040D30B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 862YYAKHRM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = htw.KiezKompareUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KiezKompare;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ACBE26862BE02D760040D30B /* Build configuration list for PBXProject "KiezKompare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBE26AF2BE02D770040D30B /* Debug */,
+				ACBE26B02BE02D770040D30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACBE26B12BE02D770040D30B /* Build configuration list for PBXNativeTarget "KiezKompare" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBE26B22BE02D770040D30B /* Debug */,
+				ACBE26B32BE02D770040D30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACBE26B42BE02D770040D30B /* Build configuration list for PBXNativeTarget "KiezKompareTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBE26B52BE02D770040D30B /* Debug */,
+				ACBE26B62BE02D770040D30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ACBE26B72BE02D770040D30B /* Build configuration list for PBXNativeTarget "KiezKompareUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ACBE26B82BE02D770040D30B /* Debug */,
+				ACBE26B92BE02D770040D30B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ACBE26832BE02D760040D30B /* Project object */;
+}
