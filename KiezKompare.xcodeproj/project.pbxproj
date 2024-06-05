@@ -22,6 +22,7 @@
 		ACBE26A22BE02D770040D30B /* KiezKompareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26A12BE02D770040D30B /* KiezKompareTests.swift */; };
 		ACBE26AC2BE02D770040D30B /* KiezKompareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26AB2BE02D770040D30B /* KiezKompareUITests.swift */; };
 		ACBE26AE2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26AD2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift */; };
+		B62093692C10C6D9000FBC59 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62093682C10C6D9000FBC59 /* StartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		ACBE26A72BE02D770040D30B /* KiezKompareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiezKompareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBE26AB2BE02D770040D30B /* KiezKompareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiezKompareUITests.swift; sourceTree = "<group>"; };
 		ACBE26AD2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiezKompareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B62093682C10C6D9000FBC59 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 			isa = PBXGroup;
 			children = (
 				ACBE26902BE02D760040D30B /* ContentView.swift */,
+				B62093682C10C6D9000FBC59 /* StartView.swift */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -348,6 +351,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC4147572C10AAB900112E3C /* Vergleichen.swift in Sources */,
+				B62093692C10C6D9000FBC59 /* StartView.swift in Sources */,
 				AC4147482C10A3FE00112E3C /* Property.swift in Sources */,
 				ACBE26912BE02D760040D30B /* ContentView.swift in Sources */,
 				AC4147592C10AE5300112E3C /* NetworkServices.swift in Sources */,

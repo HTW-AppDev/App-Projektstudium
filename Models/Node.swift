@@ -15,7 +15,7 @@ final class Node {
     var longitude: Double
     var timestamp: Date
     var tags: [String: String]
-    var category: 
+    //var category: 
     var name: String?
     var district: String?
     var address: String?

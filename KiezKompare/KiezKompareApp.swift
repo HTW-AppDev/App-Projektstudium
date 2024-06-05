@@ -25,7 +25,7 @@ struct KiezKompareApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartView()
         }
         .modelContainer(sharedModelContainer)
     }
