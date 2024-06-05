@@ -12,7 +12,7 @@ import SwiftData
 struct KiezKompareApp: App {
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
-            Item.self,
+            Node.self,  // Updated to use Node model
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -30,3 +30,4 @@ struct KiezKompareApp: App {
         .modelContainer(sharedModelContainer)
     }
 }
+

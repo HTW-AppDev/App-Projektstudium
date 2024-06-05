@@ -3,13 +3,20 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC3A3C192C105868008EB73B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A3C182C105868008EB73B /* SearchBar.swift */; };
+		AC4147452C10A35E00112E3C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4147442C10A35E00112E3C /* Category.swift */; };
+		AC4147482C10A3FE00112E3C /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4147472C10A3FE00112E3C /* Property.swift */; };
+		AC4147552C10AAA800112E3C /* Navigieren.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4147542C10AAA800112E3C /* Navigieren.swift */; };
+		AC4147572C10AAB900112E3C /* Vergleichen.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4147562C10AAB900112E3C /* Vergleichen.swift */; };
+		AC4147592C10AE5300112E3C /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4147582C10AE5300112E3C /* NetworkServices.swift */; };
+		AC41475B2C10AE8400112E3C /* SQLiteHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41475A2C10AE8400112E3C /* SQLiteHelper.swift */; };
 		ACBE268F2BE02D760040D30B /* KiezKompareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE268E2BE02D760040D30B /* KiezKompareApp.swift */; };
 		ACBE26912BE02D760040D30B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26902BE02D760040D30B /* ContentView.swift */; };
-		ACBE26932BE02D760040D30B /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26922BE02D760040D30B /* Item.swift */; };
+		ACBE26932BE02D760040D30B /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26922BE02D760040D30B /* Node.swift */; };
 		ACBE26952BE02D770040D30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBE26942BE02D770040D30B /* Assets.xcassets */; };
 		ACBE26982BE02D770040D30B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBE26972BE02D770040D30B /* Preview Assets.xcassets */; };
 		ACBE26A22BE02D770040D30B /* KiezKompareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26A12BE02D770040D30B /* KiezKompareTests.swift */; };
@@ -35,10 +42,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AC3A3C182C105868008EB73B /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		AC4147442C10A35E00112E3C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		AC4147472C10A3FE00112E3C /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
+		AC4147542C10AAA800112E3C /* Navigieren.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Navigieren.swift; sourceTree = "<group>"; };
+		AC4147562C10AAB900112E3C /* Vergleichen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vergleichen.swift; sourceTree = "<group>"; };
+		AC4147582C10AE5300112E3C /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
+		AC41475A2C10AE8400112E3C /* SQLiteHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteHelper.swift; sourceTree = "<group>"; };
 		ACBE268B2BE02D760040D30B /* KiezKompare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiezKompare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBE268E2BE02D760040D30B /* KiezKompareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiezKompareApp.swift; sourceTree = "<group>"; };
 		ACBE26902BE02D760040D30B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		ACBE26922BE02D760040D30B /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		ACBE26922BE02D760040D30B /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		ACBE26942BE02D770040D30B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACBE26972BE02D770040D30B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACBE269D2BE02D770040D30B /* KiezKompareTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiezKompareTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,9 +87,82 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC4147462C10A3CB00112E3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC4147472C10A3FE00112E3C /* Property.swift */,
+				ACBE26922BE02D760040D30B /* Node.swift */,
+				AC4147442C10A35E00112E3C /* Category.swift */,
+				AC4147532C10AA9200112E3C /* Logic */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC4147492C10A41600112E3C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC41474C2C10A59200112E3C /* Map */,
+				AC41474B2C10A56900112E3C /* Components */,
+				AC41474A2C10A56200112E3C /* Layouts */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AC41474A2C10A56200112E3C /* Layouts */ = {
+			isa = PBXGroup;
+			children = (
+				ACBE26902BE02D760040D30B /* ContentView.swift */,
+			);
+			path = Layouts;
+			sourceTree = "<group>";
+		};
+		AC41474B2C10A56900112E3C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				AC3A3C182C105868008EB73B /* SearchBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		AC41474C2C10A59200112E3C /* Map */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		AC4147522C10AA7A00112E3C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AC4147582C10AE5300112E3C /* NetworkServices.swift */,
+				AC41475A2C10AE8400112E3C /* SQLiteHelper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		AC4147532C10AA9200112E3C /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				AC4147542C10AAA800112E3C /* Navigieren.swift */,
+				AC4147562C10AAB900112E3C /* Vergleichen.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+		AC41475C2C10AEE100112E3C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		ACBE26822BE02D760040D30B = {
 			isa = PBXGroup;
 			children = (
+				AC41475C2C10AEE100112E3C /* ViewModel */,
+				AC4147522C10AA7A00112E3C /* Services */,
+				AC4147492C10A41600112E3C /* Views */,
+				AC4147462C10A3CB00112E3C /* Models */,
 				ACBE268D2BE02D760040D30B /* KiezKompare */,
 				ACBE26A02BE02D770040D30B /* KiezKompareTests */,
 				ACBE26AA2BE02D770040D30B /* KiezKompareUITests */,
@@ -97,8 +184,6 @@
 			isa = PBXGroup;
 			children = (
 				ACBE268E2BE02D760040D30B /* KiezKompareApp.swift */,
-				ACBE26902BE02D760040D30B /* ContentView.swift */,
-				ACBE26922BE02D760040D30B /* Item.swift */,
 				ACBE26942BE02D770040D30B /* Assets.xcassets */,
 				ACBE26962BE02D770040D30B /* Preview Content */,
 			);
@@ -210,7 +295,7 @@
 				};
 			};
 			buildConfigurationList = ACBE26862BE02D760040D30B /* Build configuration list for PBXProject "KiezKompare" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -218,6 +303,8 @@
 				Base,
 			);
 			mainGroup = ACBE26822BE02D760040D30B;
+			packageReferences = (
+			);
 			productRefGroup = ACBE268C2BE02D760040D30B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,8 +347,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC4147572C10AAB900112E3C /* Vergleichen.swift in Sources */,
+				AC4147482C10A3FE00112E3C /* Property.swift in Sources */,
 				ACBE26912BE02D760040D30B /* ContentView.swift in Sources */,
-				ACBE26932BE02D760040D30B /* Item.swift in Sources */,
+				AC4147592C10AE5300112E3C /* NetworkServices.swift in Sources */,
+				AC4147452C10A35E00112E3C /* Category.swift in Sources */,
+				AC41475B2C10AE8400112E3C /* SQLiteHelper.swift in Sources */,
+				AC3A3C192C105868008EB73B /* SearchBar.swift in Sources */,
+				AC4147552C10AAA800112E3C /* Navigieren.swift in Sources */,
+				ACBE26932BE02D760040D30B /* Node.swift in Sources */,
 				ACBE268F2BE02D760040D30B /* KiezKompareApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
