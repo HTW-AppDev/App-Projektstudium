@@ -15,14 +15,14 @@
 		AC4147592C10AE5300112E3C /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4147582C10AE5300112E3C /* NetworkServices.swift */; };
 		AC41475B2C10AE8400112E3C /* SQLiteHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC41475A2C10AE8400112E3C /* SQLiteHelper.swift */; };
 		ACBE268F2BE02D760040D30B /* KiezKompareApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE268E2BE02D760040D30B /* KiezKompareApp.swift */; };
-		ACBE26912BE02D760040D30B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26902BE02D760040D30B /* ContentView.swift */; };
+		ACBE26912BE02D760040D30B /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26902BE02D760040D30B /* StartView.swift */; };
 		ACBE26932BE02D760040D30B /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26922BE02D760040D30B /* Node.swift */; };
 		ACBE26952BE02D770040D30B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBE26942BE02D770040D30B /* Assets.xcassets */; };
 		ACBE26982BE02D770040D30B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACBE26972BE02D770040D30B /* Preview Assets.xcassets */; };
 		ACBE26A22BE02D770040D30B /* KiezKompareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26A12BE02D770040D30B /* KiezKompareTests.swift */; };
 		ACBE26AC2BE02D770040D30B /* KiezKompareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26AB2BE02D770040D30B /* KiezKompareUITests.swift */; };
 		ACBE26AE2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26AD2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift */; };
-		B62093692C10C6D9000FBC59 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B62093682C10C6D9000FBC59 /* StartView.swift */; };
+		B66814822C1205FD00111B15 /* LeereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66814812C1205FD00111B15 /* LeereView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		AC41475A2C10AE8400112E3C /* SQLiteHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteHelper.swift; sourceTree = "<group>"; };
 		ACBE268B2BE02D760040D30B /* KiezKompare.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KiezKompare.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBE268E2BE02D760040D30B /* KiezKompareApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiezKompareApp.swift; sourceTree = "<group>"; };
-		ACBE26902BE02D760040D30B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ACBE26902BE02D760040D30B /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 		ACBE26922BE02D760040D30B /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 		ACBE26942BE02D770040D30B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACBE26972BE02D770040D30B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -61,7 +61,7 @@
 		ACBE26A72BE02D770040D30B /* KiezKompareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiezKompareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBE26AB2BE02D770040D30B /* KiezKompareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiezKompareUITests.swift; sourceTree = "<group>"; };
 		ACBE26AD2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiezKompareUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		B62093682C10C6D9000FBC59 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		B66814812C1205FD00111B15 /* LeereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeereView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +113,6 @@
 		AC41474A2C10A56200112E3C /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
-				ACBE26902BE02D760040D30B /* ContentView.swift */,
-				B62093682C10C6D9000FBC59 /* StartView.swift */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -186,9 +184,11 @@
 		ACBE268D2BE02D760040D30B /* KiezKompare */ = {
 			isa = PBXGroup;
 			children = (
+				ACBE26902BE02D760040D30B /* StartView.swift */,
 				ACBE268E2BE02D760040D30B /* KiezKompareApp.swift */,
 				ACBE26942BE02D770040D30B /* Assets.xcassets */,
 				ACBE26962BE02D770040D30B /* Preview Content */,
+				B66814812C1205FD00111B15 /* LeereView.swift */,
 			);
 			path = KiezKompare;
 			sourceTree = "<group>";
@@ -351,15 +351,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC4147572C10AAB900112E3C /* Vergleichen.swift in Sources */,
-				B62093692C10C6D9000FBC59 /* StartView.swift in Sources */,
 				AC4147482C10A3FE00112E3C /* Property.swift in Sources */,
-				ACBE26912BE02D760040D30B /* ContentView.swift in Sources */,
+				ACBE26912BE02D760040D30B /* StartView.swift in Sources */,
 				AC4147592C10AE5300112E3C /* NetworkServices.swift in Sources */,
 				AC4147452C10A35E00112E3C /* Category.swift in Sources */,
 				AC41475B2C10AE8400112E3C /* SQLiteHelper.swift in Sources */,
 				AC3A3C192C105868008EB73B /* SearchBar.swift in Sources */,
 				AC4147552C10AAA800112E3C /* Navigieren.swift in Sources */,
 				ACBE26932BE02D760040D30B /* Node.swift in Sources */,
+				B66814822C1205FD00111B15 /* LeereView.swift in Sources */,
 				ACBE268F2BE02D760040D30B /* KiezKompareApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
