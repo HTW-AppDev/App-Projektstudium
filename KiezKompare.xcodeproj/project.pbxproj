@@ -113,6 +113,8 @@
 		AC41474A2C10A56200112E3C /* Layouts */ = {
 			isa = PBXGroup;
 			children = (
+				ACBE26902BE02D760040D30B /* StartView.swift */,
+				B66814812C1205FD00111B15 /* LeereView.swift */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -184,11 +186,9 @@
 		ACBE268D2BE02D760040D30B /* KiezKompare */ = {
 			isa = PBXGroup;
 			children = (
-				ACBE26902BE02D760040D30B /* StartView.swift */,
 				ACBE268E2BE02D760040D30B /* KiezKompareApp.swift */,
 				ACBE26942BE02D770040D30B /* Assets.xcassets */,
 				ACBE26962BE02D770040D30B /* Preview Content */,
-				B66814812C1205FD00111B15 /* LeereView.swift */,
 			);
 			path = KiezKompare;
 			sourceTree = "<group>";

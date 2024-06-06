@@ -13,6 +13,8 @@ struct LeereView: View {
     }
 }
 
-#Preview {
-    LeereView()
+struct LeereView_Previews: PreviewProvider {
+    static var previews: some View {
+        LeereView()
+    }
 }
