@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		31B5F638A5EB29FB1972E372 /* Pods_KiezKompare.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4930C3BCD616BC78C34D7D22 /* Pods_KiezKompare.framework */; };
+		8F3E1830AB131B9C52053181 /* Pods_KiezKompareTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19985F5040B6A6CF31A01A01 /* Pods_KiezKompareTests.framework */; };
 		AC3A3C192C105868008EB73B /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC3A3C182C105868008EB73B /* SearchBar.swift */; };
 		AC4147452C10A35E00112E3C /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4147442C10A35E00112E3C /* Category.swift */; };
 		AC4147482C10A3FE00112E3C /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4147472C10A3FE00112E3C /* Property.swift */; };
@@ -22,7 +24,15 @@
 		ACBE26A22BE02D770040D30B /* KiezKompareTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26A12BE02D770040D30B /* KiezKompareTests.swift */; };
 		ACBE26AC2BE02D770040D30B /* KiezKompareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26AB2BE02D770040D30B /* KiezKompareUITests.swift */; };
 		ACBE26AE2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26AD2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift */; };
+		B645BCB22C1D10E900383A9F /* MapViewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCB12C1D10E900383A9F /* MapViewPreview.swift */; };
+		B645BCB82C1D1BDF00383A9F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCB72C1D1BDF00383A9F /* MapView.swift */; };
+		B645BCBD2C1D28CB00383A9F /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B645BCBC2C1D28CB00383A9F /* GoogleMaps.bundle */; };
+		B645BCC12C1D2B5500383A9F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCC02C1D2B5500383A9F /* Location.swift */; };
+		B645BCC32C1D2DBE00383A9F /* District.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCC22C1D2DBE00383A9F /* District.swift */; };
+		B645BCC92C1D315800383A9F /* MapViewDistrict.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCC82C1D315800383A9F /* MapViewDistrict.swift */; };
+		B645BCCB2C1D36D000383A9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCCA2C1D36CF00383A9F /* ContentView.swift */; };
 		B66814822C1205FD00111B15 /* LeereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66814812C1205FD00111B15 /* LeereView.swift */; };
+		C2295CC43434731FCB8F5FB9 /* Pods_KiezKompare_KiezKompareUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B3A267540D050893F0C2608 /* Pods_KiezKompare_KiezKompareUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +53,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		05E7B79DB03D70AC765AE7BD /* Pods-KiezKompare.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiezKompare.debug.xcconfig"; path = "Target Support Files/Pods-KiezKompare/Pods-KiezKompare.debug.xcconfig"; sourceTree = "<group>"; };
+		19985F5040B6A6CF31A01A01 /* Pods_KiezKompareTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KiezKompareTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4930C3BCD616BC78C34D7D22 /* Pods_KiezKompare.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KiezKompare.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66BC591BC78DB78085BFA671 /* Pods-KiezKompare-KiezKompareUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiezKompare-KiezKompareUITests.debug.xcconfig"; path = "Target Support Files/Pods-KiezKompare-KiezKompareUITests/Pods-KiezKompare-KiezKompareUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6FF0793EED69ABD12BF18EEF /* Pods-KiezKompareTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiezKompareTests.debug.xcconfig"; path = "Target Support Files/Pods-KiezKompareTests/Pods-KiezKompareTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8B3A267540D050893F0C2608 /* Pods_KiezKompare_KiezKompareUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KiezKompare_KiezKompareUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D475A57402F8C8577422248 /* Pods-KiezKompareTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiezKompareTests.release.xcconfig"; path = "Target Support Files/Pods-KiezKompareTests/Pods-KiezKompareTests.release.xcconfig"; sourceTree = "<group>"; };
 		AC3A3C182C105868008EB73B /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
 		AC4147442C10A35E00112E3C /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		AC4147472C10A3FE00112E3C /* Property.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Property.swift; sourceTree = "<group>"; };
@@ -61,7 +78,16 @@
 		ACBE26A72BE02D770040D30B /* KiezKompareUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KiezKompareUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACBE26AB2BE02D770040D30B /* KiezKompareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiezKompareUITests.swift; sourceTree = "<group>"; };
 		ACBE26AD2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiezKompareUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B645BCB12C1D10E900383A9F /* MapViewPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewPreview.swift; path = Views/Components/MapViewPreview.swift; sourceTree = SOURCE_ROOT; };
+		B645BCB72C1D1BDF00383A9F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = Views/Components/MapView.swift; sourceTree = SOURCE_ROOT; };
+		B645BCBC2C1D28CB00383A9F /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Pods/GoogleMaps/Maps/Resources/GoogleMapsResources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		B645BCC02C1D2B5500383A9F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Location.swift; path = Views/Components/Location.swift; sourceTree = SOURCE_ROOT; };
+		B645BCC22C1D2DBE00383A9F /* District.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = District.swift; path = Views/Components/District.swift; sourceTree = SOURCE_ROOT; };
+		B645BCC82C1D315800383A9F /* MapViewDistrict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewDistrict.swift; path = Views/Components/MapViewDistrict.swift; sourceTree = SOURCE_ROOT; };
+		B645BCCA2C1D36CF00383A9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Views/Components/ContentView.swift; sourceTree = SOURCE_ROOT; };
 		B66814812C1205FD00111B15 /* LeereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeereView.swift; sourceTree = "<group>"; };
+		C5D0F570BA8A0C169A46C1E2 /* Pods-KiezKompare.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiezKompare.release.xcconfig"; path = "Target Support Files/Pods-KiezKompare/Pods-KiezKompare.release.xcconfig"; sourceTree = "<group>"; };
+		E08386178017598BB2FA27D1 /* Pods-KiezKompare-KiezKompareUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KiezKompare-KiezKompareUITests.release.xcconfig"; path = "Target Support Files/Pods-KiezKompare-KiezKompareUITests/Pods-KiezKompare-KiezKompareUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31B5F638A5EB29FB1972E372 /* Pods_KiezKompare.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +103,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8F3E1830AB131B9C52053181 /* Pods_KiezKompareTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +111,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2295CC43434731FCB8F5FB9 /* Pods_KiezKompare_KiezKompareUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +159,12 @@
 		AC41474C2C10A59200112E3C /* Map */ = {
 			isa = PBXGroup;
 			children = (
+				B645BCB12C1D10E900383A9F /* MapViewPreview.swift */,
+				B645BCB72C1D1BDF00383A9F /* MapView.swift */,
+				B645BCC02C1D2B5500383A9F /* Location.swift */,
+				B645BCC22C1D2DBE00383A9F /* District.swift */,
+				B645BCC82C1D315800383A9F /* MapViewDistrict.swift */,
+				B645BCCA2C1D36CF00383A9F /* ContentView.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -162,6 +197,7 @@
 		ACBE26822BE02D760040D30B = {
 			isa = PBXGroup;
 			children = (
+				B645BCBC2C1D28CB00383A9F /* GoogleMaps.bundle */,
 				AC41475C2C10AEE100112E3C /* ViewModel */,
 				AC4147522C10AA7A00112E3C /* Services */,
 				AC4147492C10A41600112E3C /* Views */,
@@ -170,6 +206,8 @@
 				ACBE26A02BE02D770040D30B /* KiezKompareTests */,
 				ACBE26AA2BE02D770040D30B /* KiezKompareUITests */,
 				ACBE268C2BE02D760040D30B /* Products */,
+				ADF1606EBA7D5FCA5118F8EE /* Pods */,
+				C566490F778503F5A54C0DC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -218,6 +256,29 @@
 			path = KiezKompareUITests;
 			sourceTree = "<group>";
 		};
+		ADF1606EBA7D5FCA5118F8EE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				05E7B79DB03D70AC765AE7BD /* Pods-KiezKompare.debug.xcconfig */,
+				C5D0F570BA8A0C169A46C1E2 /* Pods-KiezKompare.release.xcconfig */,
+				66BC591BC78DB78085BFA671 /* Pods-KiezKompare-KiezKompareUITests.debug.xcconfig */,
+				E08386178017598BB2FA27D1 /* Pods-KiezKompare-KiezKompareUITests.release.xcconfig */,
+				6FF0793EED69ABD12BF18EEF /* Pods-KiezKompareTests.debug.xcconfig */,
+				8D475A57402F8C8577422248 /* Pods-KiezKompareTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C566490F778503F5A54C0DC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4930C3BCD616BC78C34D7D22 /* Pods_KiezKompare.framework */,
+				8B3A267540D050893F0C2608 /* Pods_KiezKompare_KiezKompareUITests.framework */,
+				19985F5040B6A6CF31A01A01 /* Pods_KiezKompareTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -225,6 +286,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACBE26B12BE02D770040D30B /* Build configuration list for PBXNativeTarget "KiezKompare" */;
 			buildPhases = (
+				56867B694BEFF275A219C4F8 /* [CP] Check Pods Manifest.lock */,
 				ACBE26872BE02D760040D30B /* Sources */,
 				ACBE26882BE02D760040D30B /* Frameworks */,
 				ACBE26892BE02D760040D30B /* Resources */,
@@ -242,6 +304,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACBE26B42BE02D770040D30B /* Build configuration list for PBXNativeTarget "KiezKompareTests" */;
 			buildPhases = (
+				D425698486B061143DE71B67 /* [CP] Check Pods Manifest.lock */,
 				ACBE26992BE02D770040D30B /* Sources */,
 				ACBE269A2BE02D770040D30B /* Frameworks */,
 				ACBE269B2BE02D770040D30B /* Resources */,
@@ -260,6 +323,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = ACBE26B72BE02D770040D30B /* Build configuration list for PBXNativeTarget "KiezKompareUITests" */;
 			buildPhases = (
+				54DAB4781477DD8ADCEEA7FF /* [CP] Check Pods Manifest.lock */,
 				ACBE26A32BE02D770040D30B /* Sources */,
 				ACBE26A42BE02D770040D30B /* Frameworks */,
 				ACBE26A52BE02D770040D30B /* Resources */,
@@ -306,8 +370,6 @@
 				Base,
 			);
 			mainGroup = ACBE26822BE02D760040D30B;
-			packageReferences = (
-			);
 			productRefGroup = ACBE268C2BE02D760040D30B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -324,6 +386,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B645BCBD2C1D28CB00383A9F /* GoogleMaps.bundle in Resources */,
 				ACBE26982BE02D770040D30B /* Preview Assets.xcassets in Resources */,
 				ACBE26952BE02D770040D30B /* Assets.xcassets in Resources */,
 			);
@@ -345,17 +408,92 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54DAB4781477DD8ADCEEA7FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KiezKompare-KiezKompareUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56867B694BEFF275A219C4F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KiezKompare-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D425698486B061143DE71B67 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KiezKompareTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		ACBE26872BE02D760040D30B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				AC4147572C10AAB900112E3C /* Vergleichen.swift in Sources */,
+				B645BCC32C1D2DBE00383A9F /* District.swift in Sources */,
 				AC4147482C10A3FE00112E3C /* Property.swift in Sources */,
 				ACBE26912BE02D760040D30B /* StartView.swift in Sources */,
+				B645BCB82C1D1BDF00383A9F /* MapView.swift in Sources */,
 				AC4147592C10AE5300112E3C /* NetworkServices.swift in Sources */,
+				B645BCC92C1D315800383A9F /* MapViewDistrict.swift in Sources */,
+				B645BCCB2C1D36D000383A9F /* ContentView.swift in Sources */,
 				AC4147452C10A35E00112E3C /* Category.swift in Sources */,
+				B645BCC12C1D2B5500383A9F /* Location.swift in Sources */,
 				AC41475B2C10AE8400112E3C /* SQLiteHelper.swift in Sources */,
+				B645BCB22C1D10E900383A9F /* MapViewPreview.swift in Sources */,
 				AC3A3C192C105868008EB73B /* SearchBar.swift in Sources */,
 				AC4147552C10AAA800112E3C /* Navigieren.swift in Sources */,
 				ACBE26932BE02D760040D30B /* Node.swift in Sources */,
@@ -518,6 +656,7 @@
 		};
 		ACBE26B22BE02D770040D30B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05E7B79DB03D70AC765AE7BD /* Pods-KiezKompare.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -547,6 +686,7 @@
 		};
 		ACBE26B32BE02D770040D30B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D0F570BA8A0C169A46C1E2 /* Pods-KiezKompare.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -576,6 +716,7 @@
 		};
 		ACBE26B52BE02D770040D30B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6FF0793EED69ABD12BF18EEF /* Pods-KiezKompareTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -596,6 +737,7 @@
 		};
 		ACBE26B62BE02D770040D30B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D475A57402F8C8577422248 /* Pods-KiezKompareTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -616,6 +758,7 @@
 		};
 		ACBE26B82BE02D770040D30B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66BC591BC78DB78085BFA671 /* Pods-KiezKompare-KiezKompareUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -634,6 +777,7 @@
 		};
 		ACBE26B92BE02D770040D30B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E08386178017598BB2FA27D1 /* Pods-KiezKompare-KiezKompareUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

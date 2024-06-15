@@ -7,9 +7,13 @@
 
 import SwiftUI
 import SwiftData
+import UIKit
+import GoogleMaps
+
 
 @main
 struct KiezKompareApp: App {
+    
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Node.self,  // Updated to use Node model
