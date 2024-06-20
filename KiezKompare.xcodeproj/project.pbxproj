@@ -23,8 +23,6 @@
 		ACBE26AC2BE02D770040D30B /* KiezKompareUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26AB2BE02D770040D30B /* KiezKompareUITests.swift */; };
 		ACBE26AE2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBE26AD2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift */; };
 		B61803972C2430DE00F40AE2 /* DistrictView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61803962C2430DE00F40AE2 /* DistrictView.swift */; };
-		B645BCB22C1D10E900383A9F /* MapViewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCB12C1D10E900383A9F /* MapViewPreview.swift */; };
-		B645BCB82C1D1BDF00383A9F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCB72C1D1BDF00383A9F /* MapView.swift */; };
 		B645BCC12C1D2B5500383A9F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCC02C1D2B5500383A9F /* Location.swift */; };
 		B645BCC32C1D2DBE00383A9F /* District.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCC22C1D2DBE00383A9F /* District.swift */; };
 		B645BCC92C1D315800383A9F /* MapViewDistrict.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCC82C1D315800383A9F /* MapViewDistrict.swift */; };
@@ -69,8 +67,6 @@
 		ACBE26AB2BE02D770040D30B /* KiezKompareUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiezKompareUITests.swift; sourceTree = "<group>"; };
 		ACBE26AD2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KiezKompareUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B61803962C2430DE00F40AE2 /* DistrictView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictView.swift; sourceTree = "<group>"; };
-		B645BCB12C1D10E900383A9F /* MapViewPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewPreview.swift; path = Views/Components/MapViewPreview.swift; sourceTree = SOURCE_ROOT; };
-		B645BCB72C1D1BDF00383A9F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = Views/Components/MapView.swift; sourceTree = SOURCE_ROOT; };
 		B645BCC02C1D2B5500383A9F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Location.swift; path = Views/Components/Location.swift; sourceTree = SOURCE_ROOT; };
 		B645BCC22C1D2DBE00383A9F /* District.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = District.swift; path = Views/Components/District.swift; sourceTree = SOURCE_ROOT; };
 		B645BCC82C1D315800383A9F /* MapViewDistrict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewDistrict.swift; path = Views/Components/MapViewDistrict.swift; sourceTree = SOURCE_ROOT; };
@@ -145,8 +141,6 @@
 		AC41474C2C10A59200112E3C /* Map */ = {
 			isa = PBXGroup;
 			children = (
-				B645BCB12C1D10E900383A9F /* MapViewPreview.swift */,
-				B645BCB72C1D1BDF00383A9F /* MapView.swift */,
 				B645BCC02C1D2B5500383A9F /* Location.swift */,
 				B645BCC22C1D2DBE00383A9F /* District.swift */,
 				B645BCC82C1D315800383A9F /* MapViewDistrict.swift */,
@@ -376,14 +370,12 @@
 				B645BCC32C1D2DBE00383A9F /* District.swift in Sources */,
 				AC4147482C10A3FE00112E3C /* Property.swift in Sources */,
 				ACBE26912BE02D760040D30B /* StartView.swift in Sources */,
-				B645BCB82C1D1BDF00383A9F /* MapView.swift in Sources */,
 				AC4147592C10AE5300112E3C /* NetworkServices.swift in Sources */,
 				B645BCC92C1D315800383A9F /* MapViewDistrict.swift in Sources */,
 				B645BCCB2C1D36D000383A9F /* ContentView.swift in Sources */,
 				AC4147452C10A35E00112E3C /* Category.swift in Sources */,
 				B645BCC12C1D2B5500383A9F /* Location.swift in Sources */,
 				AC41475B2C10AE8400112E3C /* SQLiteHelper.swift in Sources */,
-				B645BCB22C1D10E900383A9F /* MapViewPreview.swift in Sources */,
 				AC3A3C192C105868008EB73B /* SearchBar.swift in Sources */,
 				AC4147552C10AAA800112E3C /* Navigieren.swift in Sources */,
 				B61803972C2430DE00F40AE2 /* DistrictView.swift in Sources */,
