@@ -160,16 +160,16 @@ struct DistrictView: View {
                                 }
 
                             }
-                            .padding(6)
-                            .padding(.horizontal, 15)
+                            .padding(.top, 8)
+                            .padding(.horizontal, 24)
                             .background(
                                 RoundedRectangle(cornerRadius: 25)
                                     .stroke(Color.gray, lineWidth: 0.4)
                                 )
                             .frame(height: 300)
+                            
                         }
 
-                        
                     }
 
                 }
