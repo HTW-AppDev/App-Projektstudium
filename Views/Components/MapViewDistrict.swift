@@ -51,7 +51,7 @@ struct MapViewDistrict: UIViewRepresentable {
             return mapView
         }
         
-        let region = MKCoordinateRegion(center:district.centerCoordinate, latitudinalMeters: 3000,longitudinalMeters: 3000)
+        let region = MKCoordinateRegion(center:district.centerCoordinate, latitudinalMeters: 2000,longitudinalMeters: 2000)
         mapView.setRegion(region, animated: true)
         for location in district.locations {
             let annotaion = MKPointAnnotation()
@@ -64,8 +64,6 @@ struct MapViewDistrict: UIViewRepresentable {
         
     }
     
-        
-       
     
     func updateUIView(_ uiView: MKMapView, context: Context) {}
 }

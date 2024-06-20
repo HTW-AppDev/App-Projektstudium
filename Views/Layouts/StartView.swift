@@ -67,7 +67,7 @@ struct StartView: View {
                         
                         VStack {
                             Spacer()
-                            NavigationLink(destination: LeereView()) {
+                            NavigationLink(destination: ContentView()) {
                                 Text("Navigieren")
                                     .fontWeight(.light)
                                     .foregroundColor(.black)
