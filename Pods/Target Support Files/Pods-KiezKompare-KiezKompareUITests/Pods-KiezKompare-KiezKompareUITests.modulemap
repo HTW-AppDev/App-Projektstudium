@@ -1,6 +1,0 @@
-framework module Pods_KiezKompare_KiezKompareUITests {
-  umbrella header "Pods-KiezKompare-KiezKompareUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
