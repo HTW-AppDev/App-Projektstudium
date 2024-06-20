@@ -25,7 +25,6 @@
 		B61803972C2430DE00F40AE2 /* DistrictView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B61803962C2430DE00F40AE2 /* DistrictView.swift */; };
 		B645BCB22C1D10E900383A9F /* MapViewPreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCB12C1D10E900383A9F /* MapViewPreview.swift */; };
 		B645BCB82C1D1BDF00383A9F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCB72C1D1BDF00383A9F /* MapView.swift */; };
-		B645BCBD2C1D28CB00383A9F /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B645BCBC2C1D28CB00383A9F /* GoogleMaps.bundle */; };
 		B645BCC12C1D2B5500383A9F /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCC02C1D2B5500383A9F /* Location.swift */; };
 		B645BCC32C1D2DBE00383A9F /* District.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCC22C1D2DBE00383A9F /* District.swift */; };
 		B645BCC92C1D315800383A9F /* MapViewDistrict.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCC82C1D315800383A9F /* MapViewDistrict.swift */; };
@@ -72,7 +71,6 @@
 		B61803962C2430DE00F40AE2 /* DistrictView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistrictView.swift; sourceTree = "<group>"; };
 		B645BCB12C1D10E900383A9F /* MapViewPreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewPreview.swift; path = Views/Components/MapViewPreview.swift; sourceTree = SOURCE_ROOT; };
 		B645BCB72C1D1BDF00383A9F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = Views/Components/MapView.swift; sourceTree = SOURCE_ROOT; };
-		B645BCBC2C1D28CB00383A9F /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Pods/GoogleMaps/Maps/Resources/GoogleMapsResources/GoogleMaps.bundle; sourceTree = "<group>"; };
 		B645BCC02C1D2B5500383A9F /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Location.swift; path = Views/Components/Location.swift; sourceTree = SOURCE_ROOT; };
 		B645BCC22C1D2DBE00383A9F /* District.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = District.swift; path = Views/Components/District.swift; sourceTree = SOURCE_ROOT; };
 		B645BCC82C1D315800383A9F /* MapViewDistrict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewDistrict.swift; path = Views/Components/MapViewDistrict.swift; sourceTree = SOURCE_ROOT; };
@@ -185,7 +183,6 @@
 		ACBE26822BE02D760040D30B = {
 			isa = PBXGroup;
 			children = (
-				B645BCBC2C1D28CB00383A9F /* GoogleMaps.bundle */,
 				AC41475C2C10AEE100112E3C /* ViewModel */,
 				AC4147522C10AA7A00112E3C /* Services */,
 				AC4147492C10A41600112E3C /* Views */,
@@ -194,7 +191,6 @@
 				ACBE26A02BE02D770040D30B /* KiezKompareTests */,
 				ACBE26AA2BE02D770040D30B /* KiezKompareUITests */,
 				ACBE268C2BE02D760040D30B /* Products */,
-				ADF1606EBA7D5FCA5118F8EE /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -241,13 +237,6 @@
 				ACBE26AD2BE02D770040D30B /* KiezKompareUITestsLaunchTests.swift */,
 			);
 			path = KiezKompareUITests;
-			sourceTree = "<group>";
-		};
-		ADF1606EBA7D5FCA5118F8EE /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -338,6 +327,9 @@
 				Base,
 			);
 			mainGroup = ACBE26822BE02D760040D30B;
+			packageReferences = (
+				B6B8F8212C24589000DEABB5 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */,
+			);
 			productRefGroup = ACBE268C2BE02D760040D30B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -354,7 +346,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B645BCBD2C1D28CB00383A9F /* GoogleMaps.bundle in Resources */,
 				ACBE26982BE02D770040D30B /* Preview Assets.xcassets in Resources */,
 				ACBE26952BE02D770040D30B /* Assets.xcassets in Resources */,
 			);
@@ -728,6 +719,17 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B6B8F8212C24589000DEABB5 /* XCRemoteSwiftPackageReference "ios-maps-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googlemaps/ios-maps-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
 	};
 	rootObject = ACBE26832BE02D760040D30B /* Project object */;
 }

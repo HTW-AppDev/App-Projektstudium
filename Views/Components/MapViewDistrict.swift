@@ -4,10 +4,10 @@
 //
 //  Created by Hoai Linh Pham on 15/6/24.
 //
-
+/*
 import Foundation
 import SwiftUI
-import GoogleMaps
+//import GoogleMaps
 
 struct MapViewDistrict: UIViewRepresentable {
     let districtID: Int
@@ -42,3 +42,4 @@ struct MapViewDistrict: UIViewRepresentable {
     func updateUIView(_ uiView: GMSMapView, context: Context) {}
 }
 
+*/

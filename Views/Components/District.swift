@@ -4,7 +4,7 @@
 //
 //  Created by Hoai Linh Pham on 15/6/24.
 //
-
+/*
 import Foundation
 import CoreLocation
 struct District {
@@ -33,3 +33,4 @@ let districts = [
     District(id:11,name: "Lichtenberg", centerCoordinate: CLLocationCoordinate2D(latitude: 52.5130, longitude: 13.4990), locations: []),
     District(id:12,name: "Reinickendorf", centerCoordinate: CLLocationCoordinate2D(latitude: 52.5840, longitude: 13.2910), locations: []),
 ]
+*/

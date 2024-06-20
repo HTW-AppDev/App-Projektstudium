@@ -6,8 +6,8 @@
 //
 
 
-import SwiftUI
-import GoogleMaps
+/*import SwiftUI
+//import GoogleMaps
 
 
 struct MapViewPreview: PreviewProvider {
@@ -15,5 +15,5 @@ struct MapViewPreview: PreviewProvider {
         MapView(locations: locations)
                     .edgesIgnoringSafeArea(.all)
     }
-}
+}*/
 

@@ -8,7 +8,7 @@
 import SwiftUI
 import SwiftData
 import UIKit
-import GoogleMaps
+//import GoogleMaps
 
 
 @main

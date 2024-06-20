@@ -1,5 +1,5 @@
-import SwiftUI
-import GoogleMaps
+/*import SwiftUI
+//import GoogleMaps
 
 struct MapView: UIViewRepresentable {
     let locations: [Location]
@@ -33,4 +33,4 @@ struct MapView: UIViewRepresentable {
     func updateUIView(_ uiView: GMSMapView, context: Context) {}
 }
 
-
+*/
