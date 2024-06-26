@@ -1,9 +1,12 @@
 import SwiftUI
 
+
 struct DistrictView: View {
     
     @State private var isEigenschaftenSelected = true
     @State private var isHighlightsSelected = false
+    @State private var isStartViewActive = false
+
     
     var body: some View {
         NavigationStack {
@@ -12,19 +15,22 @@ struct DistrictView: View {
                 LinearGradient(gradient: Gradient(colors: [Color(red: 192/255, green: 219/255, blue: 148/255), Color(red: 79/255, green: 117/255, blue: 110/255)]),
                                startPoint: .topLeading,
                                endPoint: .topTrailing)
-                .edgesIgnoringSafeArea(.all)
+                    .edgesIgnoringSafeArea(.all)
                 
                 VStack {
                     Spacer()
                     HStack(alignment: .center) {
                         Spacer()
+                        
                         Button(action: {
-                            // Add code for back navigation if necessary
-                        }) {
-                            Image(systemName: "arrow.left")
+                            isStartViewActive = true
+                        }) { Image(systemName: "arrow.left")
                                 .foregroundColor(.white)
                                 .font(.title)
                                 .padding(.top, 60)
+                        }
+                        .fullScreenCover(isPresented: $isStartViewActive) {
+                            StartView()
                         }
                         Spacer()
 
@@ -38,13 +44,16 @@ struct DistrictView: View {
                             .padding(.top, 60)
                         
                         Button(action: {
-                            // Add code for home navigation if necessary
+                            isStartViewActive = true
                         }) {
                             Image(systemName: "house")
                                 .foregroundColor(.white)
                                 .font(.title)
                                 .padding(.top, 60)
                                 .padding(.leading, 7)
+                        }
+                        .fullScreenCover(isPresented: $isStartViewActive) {
+                            StartView()
                         }
                         Spacer()
                     }
@@ -218,10 +227,13 @@ struct DistrictView: View {
                                         .stroke(Color.gray, lineWidth: 0.4))
                             }
                             .padding(.bottom, 50)
+                            
+                            
                         }
                     }
                 }
             }
+            .navigationBarHidden(true)
         }
     }
 }
