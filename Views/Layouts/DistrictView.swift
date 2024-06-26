@@ -69,35 +69,37 @@ struct DistrictView: View {
                                 .padding(.bottom, 10)
                             
                             HStack(spacing: 4) {
-                                Text("Eigenschaften")
-                                    .padding(8)
-                                    .frame(maxWidth: 110)
-                                    .background(Color(red: 160/255, green: 190/255, blue: 100/255))
-                                    .cornerRadius(6)
-                                    .font(Font.custom("Raleway-Regular", size: 13))
-                                    .shadow(color: Color.black.opacity(0.3), radius: 3, x: 2, y: 2)
+                                NavigationLink(destination: LeereView()) {
+                                    Text("Eigenschaften")
+                                        .padding(8)
+                                        .frame(maxWidth: 110)
+                                        .background(Color(red: 160/255, green: 190/255, blue: 100/255))
+                                        .cornerRadius(6)
+                                        .font(Font.custom("Raleway-Regular", size: 13))
+                                        .shadow(color: Color.black.opacity(0.3), radius: 3, x: 2, y: 2)
+                                }
 
+                                NavigationLink(destination: LeereView()) {
+                                    Text("Highlights")
+                                        .padding(8)
+                                        .frame(maxWidth: 110)
+                                        .background(Color(red: 120/255, green: 157/255, blue: 150/255))
+                                        .cornerRadius(6)
+                                        .font(Font.custom("Raleway-Regular", size: 13))
+                                        .shadow(color: Color.black.opacity(0.3), radius: 3, x: 2, y: 2)
+                                    
+                                }
 
-                                
-                                Text("Highlights")
-                                    .padding(8)
-                                    .frame(maxWidth: 110)
-                                    .background(Color(red: 120/255, green: 157/255, blue: 150/255))
-                                    .cornerRadius(6)
-                                    .font(Font.custom("Raleway-Regular", size: 13))
-                                    .shadow(color: Color.black.opacity(0.3), radius: 3, x: 2, y: 2)
-
-
-
-                                Text("Compare")
-                                    .padding(8)
-                                    .frame(maxWidth: 110)
-                                    .background(Color(red: 79/255, green: 117/255, blue: 110/255))
-                                    .cornerRadius(6)
-                                    .font(Font.custom("Raleway-Regular", size: 13))
-                                    .shadow(color: Color.black.opacity(0.3), radius: 3, x: 2, y: 2)
-
-                                
+                                NavigationLink(destination: LeereView()) {
+                                    Text("Compare")
+                                        .padding(8)
+                                        .frame(maxWidth: 110)
+                                        .background(Color(red: 79/255, green: 117/255, blue: 110/255))
+                                        .cornerRadius(6)
+                                        .font(Font.custom("Raleway-Regular", size: 13))
+                                        .shadow(color: Color.black.opacity(0.3), radius: 3, x: 2, y: 2)
+                                    
+                                }
                             }
                             .foregroundColor(.white)
                             .padding(.bottom, 10)
