@@ -12,8 +12,7 @@ struct ContentView: View {
     var body: some View {
         NavigationView {
             List(districts, id: \.id) { district in
-                NavigationLink(destination: MapViewDistrict(districtID: district.id).edgesIgnoringSafeArea(.all)) {
-                    Text(district.name)
+                NavigationLink(destination: MapViewDistrictWithList(districtID: district.id)){Text(district.name)
                 }
             }
             .navigationTitle("Berlin Districts")

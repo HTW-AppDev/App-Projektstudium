@@ -2,17 +2,33 @@
 //  LocationsListView.swift
 //  KiezKompare
 //
-//  Created by not Ha Lan Nguyen on 27/6/24.
+//  Created by Hoai Linh Pham on 27/6/24.
 //
 
 import SwiftUI
 
 struct LocationsListView: View {
+    let districtID:Int
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List{
+            ForEach(locationsForDistrict(districtID: districtID), id: \.name){
+                location in
+                VStack(alignment: .leading){
+                    Text(location.name).font(.headline)
+                    Text(location.address).font(.subheadline).foregroundColor(.gray)
+                }
+            }
+        }
+        .padding(.top)
+    }
+    private func locationsForDistrict(districtID:Int)->[Location]{
+        if let district = districts.first(where:{ $0.id == districtID}){
+            return district.locations
+        }else{
+            return[]
+        }
+        
     }
 }
 
-#Preview {
-    LocationsListView()
-}

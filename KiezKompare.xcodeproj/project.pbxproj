@@ -28,6 +28,9 @@
 		B645BCC92C1D315800383A9F /* MapViewDistrict.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCC82C1D315800383A9F /* MapViewDistrict.swift */; };
 		B645BCCB2C1D36D000383A9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCCA2C1D36CF00383A9F /* ContentView.swift */; };
 		B66814822C1205FD00111B15 /* LeereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66814812C1205FD00111B15 /* LeereView.swift */; };
+		B6EBF76C2C2D6AC3007D1FF8 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EBF76B2C2D6AC3007D1FF8 /* MapView.swift */; };
+		B6EBF76E2C2D6E2D007D1FF8 /* MapViewDistrictWithList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EBF76D2C2D6E2D007D1FF8 /* MapViewDistrictWithList.swift */; };
+		B6EBF7702C2D6E90007D1FF8 /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6EBF76F2C2D6E90007D1FF8 /* LocationsListView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +75,9 @@
 		B645BCC82C1D315800383A9F /* MapViewDistrict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewDistrict.swift; path = Views/Components/MapViewDistrict.swift; sourceTree = SOURCE_ROOT; };
 		B645BCCA2C1D36CF00383A9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Views/Components/ContentView.swift; sourceTree = SOURCE_ROOT; };
 		B66814812C1205FD00111B15 /* LeereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeereView.swift; sourceTree = "<group>"; };
+		B6EBF76B2C2D6AC3007D1FF8 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapView.swift; path = Views/Components/MapView.swift; sourceTree = SOURCE_ROOT; };
+		B6EBF76D2C2D6E2D007D1FF8 /* MapViewDistrictWithList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewDistrictWithList.swift; path = Views/Components/MapViewDistrictWithList.swift; sourceTree = SOURCE_ROOT; };
+		B6EBF76F2C2D6E90007D1FF8 /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LocationsListView.swift; path = Views/Components/LocationsListView.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +151,9 @@
 				B645BCC22C1D2DBE00383A9F /* District.swift */,
 				B645BCC82C1D315800383A9F /* MapViewDistrict.swift */,
 				B645BCCA2C1D36CF00383A9F /* ContentView.swift */,
+				B6EBF76B2C2D6AC3007D1FF8 /* MapView.swift */,
+				B6EBF76D2C2D6E2D007D1FF8 /* MapViewDistrictWithList.swift */,
+				B6EBF76F2C2D6E90007D1FF8 /* LocationsListView.swift */,
 			);
 			path = Map;
 			sourceTree = "<group>";
@@ -372,11 +381,14 @@
 				AC4147592C10AE5300112E3C /* NetworkServices.swift in Sources */,
 				B645BCC92C1D315800383A9F /* MapViewDistrict.swift in Sources */,
 				B645BCCB2C1D36D000383A9F /* ContentView.swift in Sources */,
+				B6EBF76E2C2D6E2D007D1FF8 /* MapViewDistrictWithList.swift in Sources */,
+				B6EBF76C2C2D6AC3007D1FF8 /* MapView.swift in Sources */,
 				AC4147452C10A35E00112E3C /* Category.swift in Sources */,
 				B645BCC12C1D2B5500383A9F /* Location.swift in Sources */,
 				AC41475B2C10AE8400112E3C /* SQLiteHelper.swift in Sources */,
 				AC3A3C192C105868008EB73B /* SearchBar.swift in Sources */,
 				AC4147552C10AAA800112E3C /* Navigieren.swift in Sources */,
+				B6EBF7702C2D6E90007D1FF8 /* LocationsListView.swift in Sources */,
 				B61803972C2430DE00F40AE2 /* DistrictView.swift in Sources */,
 				ACBE26932BE02D760040D30B /* Node.swift in Sources */,
 				B66814822C1205FD00111B15 /* LeereView.swift in Sources */,
