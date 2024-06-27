@@ -11,7 +11,7 @@ import MapKit
 struct MapView: UIViewRepresentable {
     let districtID: Int
     @Binding var showLocationList:Bool
-    @State private var selectedAnnotation: MKPointAnnotation?
+    @Binding var selectedAnnotation: MKPointAnnotation?
     
     func makeUIView(context: Context) -> MKMapView{
         let mapView = MKMapView()
@@ -29,14 +29,20 @@ struct MapView: UIViewRepresentable {
                 mapView.addAnnotation(annotation)
             }
         }
-        DispatchQueue.main.async {
+        /*DispatchQueue.main.async {
             self.showLocationList = false
-        }
+        }*/
         return mapView
     }
     
     func updateUIView(_ uiView: MKMapView, context: Context) {
         //Weitere Update
+        if let annotation = selectedAnnotation {
+                    uiView.selectAnnotation(annotation, animated: true)
+                    uiView.setCenter(annotation.coordinate, animated: true)
+                } else {
+                    uiView.deselectAnnotation(uiView.selectedAnnotations.first, animated: true)
+                }
     }
     
     func makeCoordinator() -> Coordinator {
@@ -52,6 +58,9 @@ struct MapView: UIViewRepresentable {
         func mapView(_ mapView: MKMapView, didSelect view: MKAnnotationView){
             if let annotation = view.annotation as? MKPointAnnotation{
                 parent.selectedAnnotation = annotation
+                withAnimation {
+                    parent.showLocationList = false
+                }
                 //Die Liste wird immer beim Oeffnen zeigen
                 //parent.showLocationList = true
             }
@@ -59,14 +68,12 @@ struct MapView: UIViewRepresentable {
         
         func mapView(_ mapView:MKMapView, didDeselect view: MKAnnotationView){
             if view.annotation as? MKPointAnnotation == parent.selectedAnnotation{
-                parent.selectedAnnotation = nil            }
+                parent.selectedAnnotation = nil
+            }
+            
         }
     }
 }
 
-struct MapView_Previews: PreviewProvider{
-    static var previews:some View{
-        MapView(districtID: 1, showLocationList:.constant(false))
-    }
-}
+
 

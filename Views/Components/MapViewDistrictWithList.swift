@@ -7,38 +7,31 @@
 
 import SwiftUI
 import Foundation
+import MapKit
 
 struct MapViewDistrictWithList: View {
     let districtID: Int
     @State private var showListInitially = true
+    @State private var selectedAnnotation: MKPointAnnotation?
     var body: some View {
         NavigationView{
             ZStack(alignment:.bottom){
-                MapView(districtID: districtID, showLocationList: $showListInitially).edgesIgnoringSafeArea(.all)
+                MapView(districtID: districtID, showLocationList: $showListInitially, selectedAnnotation: $selectedAnnotation).edgesIgnoringSafeArea(.all)
                     VStack{
                         Spacer()
                         if showListInitially{
-                        LocationsListView(districtID: districtID)
+                        LocationsListView(districtID: districtID,  selectedAnnotation: $selectedAnnotation)
                                 .frame(height:350)
                                 .background(Color.white)
-                            .padding()
+                          
                             .transition(.move(edge:.bottom))
-                            .gesture(
-                                DragGesture().onEnded
-                                { gesture in
-                                    if gesture.translation.height > 50 {
-                                        withAnimation{
-                                            self.showListInitially = false
-                                        }
-                                    }
-                                }
-                            )
+                            
                     }
                 }
                     .padding(.bottom)
             }.navigationBarItems(trailing:Button(action:{
                 withAnimation {
-                    self.showListInitially = true
+                    self.showListInitially.toggle()
                 }
             }){
                 Image(systemName: "list.bullet").font(.title)

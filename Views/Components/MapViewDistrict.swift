@@ -16,7 +16,7 @@ struct MapViewDistrict: View {
     @State private var selectedAnnotation:MKPointAnnotation?
     var body: some View{
         VStack(spacing:0){
-            MapView(districtID: districtID,showLocationList:$showLocationList).edgesIgnoringSafeArea(.top)
+            MapView(districtID: districtID,showLocationList:$showLocationList,  selectedAnnotation: $selectedAnnotation).edgesIgnoringSafeArea(.top)
                 .frame(height:300)
             if let annotation = selectedAnnotation {
                             VStack {
@@ -33,7 +33,7 @@ struct MapViewDistrict: View {
                             .padding()
                         }
             if showLocationList{
-                LocationsListView(districtID: districtID).transition(.move(edge:.bottom))
+                LocationsListView(districtID: districtID, selectedAnnotation: $selectedAnnotation).transition(.move(edge:.bottom))
             }
         }
         .gesture(
@@ -51,11 +51,7 @@ struct MapViewDistrict: View {
     }
 }
 
-struct MapViewDistrict_Previews: PreviewProvider{
-    static var previews: some View{
-        MapViewDistrict(districtID: 1)
-    }
-}
+
 
 
 
