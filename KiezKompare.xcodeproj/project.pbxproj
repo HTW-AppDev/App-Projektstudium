@@ -28,6 +28,7 @@
 		B645BCC92C1D315800383A9F /* MapViewDistrict.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCC82C1D315800383A9F /* MapViewDistrict.swift */; };
 		B645BCCB2C1D36D000383A9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B645BCCA2C1D36CF00383A9F /* ContentView.swift */; };
 		B66814822C1205FD00111B15 /* LeereView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B66814812C1205FD00111B15 /* LeereView.swift */; };
+		E9C893282C2D520900CDD388 /* NavigateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C893272C2D520900CDD388 /* NavigateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +73,7 @@
 		B645BCC82C1D315800383A9F /* MapViewDistrict.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewDistrict.swift; path = Views/Components/MapViewDistrict.swift; sourceTree = SOURCE_ROOT; };
 		B645BCCA2C1D36CF00383A9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = Views/Components/ContentView.swift; sourceTree = SOURCE_ROOT; };
 		B66814812C1205FD00111B15 /* LeereView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeereView.swift; sourceTree = "<group>"; };
+		E9C893272C2D520900CDD388 /* NavigateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				ACBE26902BE02D760040D30B /* StartView.swift */,
 				B66814812C1205FD00111B15 /* LeereView.swift */,
 				B61803962C2430DE00F40AE2 /* DistrictView.swift */,
+				E9C893272C2D520900CDD388 /* NavigateView.swift */,
 			);
 			path = Layouts;
 			sourceTree = "<group>";
@@ -373,6 +376,7 @@
 				AC4147592C10AE5300112E3C /* NetworkServices.swift in Sources */,
 				B645BCC92C1D315800383A9F /* MapViewDistrict.swift in Sources */,
 				B645BCCB2C1D36D000383A9F /* ContentView.swift in Sources */,
+				E9C893282C2D520900CDD388 /* NavigateView.swift in Sources */,
 				AC4147452C10A35E00112E3C /* Category.swift in Sources */,
 				B645BCC12C1D2B5500383A9F /* Location.swift in Sources */,
 				AC41475B2C10AE8400112E3C /* SQLiteHelper.swift in Sources */,
@@ -470,7 +474,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -527,7 +530,6 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
