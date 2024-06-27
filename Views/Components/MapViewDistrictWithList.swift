@@ -36,7 +36,6 @@ struct MapViewDistrictWithList: View {
             }){
                 Image(systemName: "list.bullet").font(.title)
             })
-            .navigationBarTitle("Berlin Districts", displayMode: .inline)
             .edgesIgnoringSafeArea(.bottom)
             
         }
